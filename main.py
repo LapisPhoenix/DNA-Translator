@@ -122,7 +122,7 @@ translateDNA(["TTA", "TCT", "TTG", "AA"])
 # --------------------------------------------------
 
 
-def dice(table: str, number: int = None):
+def dice(table: str, number: int):
     if not isinstance(number, int):
         exit("BAD")
 
